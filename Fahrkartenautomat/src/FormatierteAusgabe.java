@@ -2,7 +2,6 @@
 public class FormatierteAusgabe {
 
 	public static void main(String[] args) {
-	
 
 		char s = '*';
 		System.out.printf("%3s", s);

@@ -4,11 +4,11 @@ public class ScannerDemo {
 
     public static void main(String[] args) {
 
-        int ganzzahl=0;
-        double kommazahl=0.0;
-        String wort="";
-        boolean wahrheitswert=false;
-        char buchstabe=' ';
+        int ganzzahl = 0;
+        double kommazahl = 0.0;
+        String wort = "";
+        boolean wahrheitswert = false;
+        char buchstabe = ' ';
 
         Scanner tastatur = new Scanner(System.in); // Erzeugen eines Objekts der Klasse Scanner
 
@@ -31,7 +31,7 @@ public class ScannerDemo {
         System.out.print("Bitte geben Sie einen einzelnen Buchstaben ein: ");
         buchstabe = tastatur.next().charAt(0);
         System.out.print("Sie haben '" + buchstabe + "' eingegeben!\n");
-       
+
         tastatur.close();
     }
 }
