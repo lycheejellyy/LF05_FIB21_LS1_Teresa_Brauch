@@ -2,7 +2,7 @@
 public class Tabelle {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 
 		int f1 = -20;
 		int f2 = -10;

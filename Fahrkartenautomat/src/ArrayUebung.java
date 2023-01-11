@@ -4,10 +4,10 @@ public class ArrayUebung {
 			  public static void main(String args[]) {
 
 			    // 1. Deklaration eines Arrays für ganze Zahlen.
-				  int [ ] myArray;
+				  	int [ ] myArray;
 
 			    // 2. Initialisierung des Arrays mit 100 Elementen.
-				  myArray = new int[100];
+				  	myArray = new int[100];
 
 			    // 3. Durchlaufen des gesamten Arrays und Ausgabe des Inhalts.
 					for (int i = 0; i < 100; i++)
